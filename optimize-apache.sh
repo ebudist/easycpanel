@@ -231,7 +231,7 @@ perl -pi -e 's/LF_HTACCESS_PERM = "1"/LF_HTACCESS_PERM = "1800"/g' /etc/csf/csf.
 perl -pi -e 's/LF_MODSEC_PERM = "1"/LF_MODSEC_PERM = "1800"/g' /etc/csf/csf.conf ;
 CURRENTPORTNUM=22
 NEWPORTNUM=$(( $RANDOM % 500  + 1500 ))
-## Use this instead for fixed port number 8435 (Talk to L3 tech for information) ###
+## Use this instead for fixed port number 8435 (Talk to L3 tech for information) ##
 #NEWPORTNUM=8435
 TCPIN=$(cat /etc/csf/csf.conf | grep ^TCP_IN)
 TCPINNEW=$(cat /etc/csf/csf.conf | grep ^TCP_IN | sed -e "s/,${CURRENTPORTNUM},/,${NEWPORTNUM},/")
