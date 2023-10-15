@@ -44,4 +44,5 @@ Additionally, the script takes care of installing various PHP versions, extensio
 This script incorporates all the relevant cPanel commands documented in the cPanel Docs. The Bash file is unencrypted, freely usable, and redistributable (though credit is required).
 
 ## Author: 
-Script is written by Ahtsham Jutt ( https://www.ahtshamjutt.com )
+Script is written by Ahtsham Jutt ( https://www.ahtshamjutt.com ). I am really appreciate his work.
+Any technical inquiries about this script, please contact Ahtsham directly.
